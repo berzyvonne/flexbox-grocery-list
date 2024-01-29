@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="flexbox-grocery-list.css" />
+    <title>Flexbox Grocery List</title>
+    <style>
+      body {
+        background-color: rgba(222, 211, 200, 0.123);
+      }
+
+      * {
+        font-family: "Trebuchet MS";
+      }
+
+      ol {
+        list-style-type: square;
+      }
+
+      ul {
+        list-style-type: decimal;
+      }
+    </style>
+  </head>
+  <header class="header" style="color: rgb(113, 121, 121)">
+    Flexbox Grocery List
+  </header>
+
+  <main class="flex-container" style="color: darkslategrey">
+    <!-- Box 1 -->
+    <div>
+      <h3 class="category" id="produce">PRODUCE</h3>
+
+      <img
+        src="https://media.istockphoto.com/id/1284690585/photo/colorful-vegetables-and-fruits-vegan-food-in-rainbow-colors.jpg?s=612x612&w=0&k=20&c=fXqp_CPaHMyfzMhjZGQG1zloNBNkVRjdYKScw3K98XQ="
+      />
+
+      <div class="subcategory">
+        <h4>Fruit</h4>
+        <ol>
+          <li>Honeycrisp Apples</li>
+          <li>Grapes</li>
+          <li>Sumo Mandarins</li>
+          <li>Kiwis</li>
+        </ol>
+      </div>
+
+      <div class="subcategory">
+        <h4>Veggies</h4>
+        <ol>
+          <li>Carrots</li>
+          <li>Peppers</li>
+          <li>Onions</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Box 2 -->
+    <div>
+      <h3 class="category" id="meat">MEAT</h3>
+
+      <img
+        src="https://media.istockphoto.com/id/450969175/photo/butchers-counter.jpg?s=612x612&w=0&k=20&c=RQUmIzrloklMWjp9U8j7qUBGvPrEPGjXffXAdLFbMuU="
+      />
+
+      <div class="subcategory">
+        <h4>Poultry</h4>
+        <ol>
+          <li>Chicken Nuggies</li>
+          <li>Deli Turkey</li>
+          <li>Cornish Hen</li>
+        </ol>
+      </div>
+
+      <div class="subcategory">
+        <h4>Red Meat</h4>
+        <ol>
+          <li>Ground Beef</li>
+          <li>Steak</li>
+          <li>Burger Patties</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Box 3 -->
+    <div>
+      <h3 class="category" id="pantry">PANTRY</h3>
+
+      <img
+        src="https://media.istockphoto.com/id/458990173/photo/food-drive-collection.jpg?s=612x612&w=0&k=20&c=lyxmqez8_GFBYg1lHshyHCou2KpWPNsXiHJqOuP2DI8="
+      />
+
+      <div class="subcategory">
+        <h4>Canned</h4>
+        <ul>
+          <li>Green Beans</li>
+          <li>Corn</li>
+          <li>Diced Tomatoes</li>
+        </ul>
+      </div>
+
+      <div class="subcategory">
+        <h4>Dry Goods</h4>
+        <ul>
+          <li>Oats</li>
+          <li>Rice</li>
+          <li>Quinoa</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Box 4 -->
+    <div>
+      <h3 class="category" id="frozen">FROZEN</h3>
+
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmDLV_FXxrmno1kQMBTRgdSoAGYklw6nWAYQ&usqp=CAU"
+      />
+      <div class="subcategory">
+        <h4>Meals</h4>
+        <ul>
+          <li>Tikka Masala</li>
+          <li>Pizza</li>
+          <li>Pad Thai</li>
+          <li>Lasagna</li>
+        </ul>
+      </div>
+
+      <div class="subcategory">
+        <h4>Snacks</h4>
+        <ul>
+          <li>Ice Cream</li>
+          <li>Mozzarella Sticks</li>
+          <li>Pizza Rolls</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</html>
